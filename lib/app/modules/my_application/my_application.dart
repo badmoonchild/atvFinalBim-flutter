@@ -77,7 +77,7 @@ class MyApplication extends Module {
     ),
     ChildRoute(
       '/adicionarConversao',
-      child: (context, args) => SignInPage(),
+      child: (context, args) => AdicionarConversao(),
     ),
     ChildRoute(
       '/minhasConversoes',
